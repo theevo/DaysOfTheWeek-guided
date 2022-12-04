@@ -91,6 +91,10 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="4CC-ma-HNQ"/>
+                    <connections>
+                        <outlet property="dayNameLabel" destination="SMk-Nb-ueY" id="4fN-CT-Jrq"/>
+                        <outlet property="dayOriginLabel" destination="CYN-pw-hBE" id="kMY-ky-ovG"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="a06-5t-CM9" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -41,7 +41,9 @@ class DayListTableViewController: UITableViewController {
                   let destination = segue.destination as? DayDetailViewController
             else { return }
             
-//            let day = DayController.daysOfTheWeek[indexPath.row]
+            let dayToSend = DayController.daysOfTheWeek[indexPath.row]
+            
+            destination.day = dayToSend
         }
     }
 }
