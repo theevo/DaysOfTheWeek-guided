@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AC4AB497293C298E0040F81C /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AB496293C298E0040F81C /* Day.swift */; };
 		ACD8BF15293C0D75001DB53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD8BF14293C0D75001DB53D /* AppDelegate.swift */; };
 		ACD8BF17293C0D75001DB53D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD8BF16293C0D75001DB53D /* SceneDelegate.swift */; };
 		ACD8BF19293C0D75001DB53D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD8BF18293C0D75001DB53D /* ViewController.swift */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AC4AB496293C298E0040F81C /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		ACD8BF11293C0D75001DB53D /* DaysOfTheWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysOfTheWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD8BF14293C0D75001DB53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACD8BF16293C0D75001DB53D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -48,6 +50,14 @@
 			path = Resources;
 			sourceTree = "<group>";
 		};
+		AC4AB495293C29730040F81C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AB496293C298E0040F81C /* Day.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		ACD8BF08293C0D75001DB53D = {
 			isa = PBXGroup;
 			children = (
@@ -67,6 +77,7 @@
 		ACD8BF13293C0D75001DB53D /* DaysOfTheWeek */ = {
 			isa = PBXGroup;
 			children = (
+				AC4AB495293C29730040F81C /* Models */,
 				AC4AB494293C28BD0040F81C /* Resources */,
 				ACD8BF18293C0D75001DB53D /* ViewController.swift */,
 				ACD8BF1A293C0D75001DB53D /* Main.storyboard */,
@@ -148,6 +159,7 @@
 			files = (
 				ACD8BF19293C0D75001DB53D /* ViewController.swift in Sources */,
 				ACD8BF15293C0D75001DB53D /* AppDelegate.swift in Sources */,
+				AC4AB497293C298E0040F81C /* Day.swift in Sources */,
 				ACD8BF17293C0D75001DB53D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
