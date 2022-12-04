@@ -13,7 +13,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
         
-        print("hello there")
+        print(DayController.daysOfTheWeek.map { $0.name })
     }
 
 
