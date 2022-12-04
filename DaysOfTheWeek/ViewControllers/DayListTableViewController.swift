@@ -26,7 +26,21 @@ class DayListTableViewController: UITableViewController {
         
         let day = DayController.daysOfTheWeek[indexPath.row].name
         
-        cell.textLabel?.text = day
+        // DEPRECATED
+//        cell.textLabel?.text = day
+        
+        // THE NEW WAY iOS 15+
+        
+        var content = cell.defaultContentConfiguration()
+
+        // Configure content.
+        content.image = UIImage(systemName: "star")
+        content.text = day
+
+        // Customize appearance.
+        content.imageProperties.tintColor = .purple
+
+        cell.contentConfiguration = content
         
         return cell
     }
