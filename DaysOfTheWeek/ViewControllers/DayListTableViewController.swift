@@ -30,4 +30,18 @@ class DayListTableViewController: UITableViewController {
         
         return cell
     }
+    
+    // MARK: - Navigation
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // IIDOO
+        
+        if segue.identifier == "toDetailVC" {
+            guard let indexPath = tableView.indexPathForSelectedRow,
+                  let destination = segue.destination as? DayDetailViewController
+            else { return }
+            
+//            let day = DayController.daysOfTheWeek[indexPath.row]
+        }
+    }
 }
