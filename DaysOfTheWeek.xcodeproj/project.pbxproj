@@ -37,6 +37,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AC4AB494293C28BD0040F81C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				ACD8BF14293C0D75001DB53D /* AppDelegate.swift */,
+				ACD8BF1D293C0D76001DB53D /* Assets.xcassets */,
+				ACD8BF22293C0D76001DB53D /* Info.plist */,
+				ACD8BF16293C0D75001DB53D /* SceneDelegate.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		ACD8BF08293C0D75001DB53D = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +67,9 @@
 		ACD8BF13293C0D75001DB53D /* DaysOfTheWeek */ = {
 			isa = PBXGroup;
 			children = (
-				ACD8BF14293C0D75001DB53D /* AppDelegate.swift */,
-				ACD8BF16293C0D75001DB53D /* SceneDelegate.swift */,
+				AC4AB494293C28BD0040F81C /* Resources */,
 				ACD8BF18293C0D75001DB53D /* ViewController.swift */,
 				ACD8BF1A293C0D75001DB53D /* Main.storyboard */,
-				ACD8BF22293C0D76001DB53D /* Info.plist */,
-				ACD8BF1D293C0D76001DB53D /* Assets.xcassets */,
 				ACD8BF1F293C0D76001DB53D /* LaunchScreen.storyboard */,
 			);
 			path = DaysOfTheWeek;
@@ -289,7 +297,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6QY69PUF72;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DaysOfTheWeek/Info.plist;
+				INFOPLIST_FILE = DaysOfTheWeek/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -317,7 +325,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 6QY69PUF72;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = DaysOfTheWeek/Info.plist;
+				INFOPLIST_FILE = DaysOfTheWeek/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
