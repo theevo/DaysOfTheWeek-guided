@@ -9,9 +9,9 @@
 /* Begin PBXBuildFile section */
 		AC4AB497293C298E0040F81C /* Day.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AB496293C298E0040F81C /* Day.swift */; };
 		AC4AB49A293C2A1E0040F81C /* DayController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AB499293C2A1E0040F81C /* DayController.swift */; };
+		AC4AB4A2293C2DFD0040F81C /* DayListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC4AB4A1293C2DFD0040F81C /* DayListTableViewController.swift */; };
 		ACD8BF15293C0D75001DB53D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD8BF14293C0D75001DB53D /* AppDelegate.swift */; };
 		ACD8BF17293C0D75001DB53D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD8BF16293C0D75001DB53D /* SceneDelegate.swift */; };
-		ACD8BF19293C0D75001DB53D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD8BF18293C0D75001DB53D /* ViewController.swift */; };
 		ACD8BF1C293C0D75001DB53D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD8BF1A293C0D75001DB53D /* Main.storyboard */; };
 		ACD8BF1E293C0D76001DB53D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD8BF1D293C0D76001DB53D /* Assets.xcassets */; };
 		ACD8BF21293C0D76001DB53D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ACD8BF1F293C0D76001DB53D /* LaunchScreen.storyboard */; };
@@ -20,10 +20,10 @@
 /* Begin PBXFileReference section */
 		AC4AB496293C298E0040F81C /* Day.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Day.swift; sourceTree = "<group>"; };
 		AC4AB499293C2A1E0040F81C /* DayController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayController.swift; sourceTree = "<group>"; };
+		AC4AB4A1293C2DFD0040F81C /* DayListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayListTableViewController.swift; sourceTree = "<group>"; };
 		ACD8BF11293C0D75001DB53D /* DaysOfTheWeek.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DaysOfTheWeek.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD8BF14293C0D75001DB53D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACD8BF16293C0D75001DB53D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		ACD8BF18293C0D75001DB53D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		ACD8BF1B293C0D75001DB53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ACD8BF1D293C0D76001DB53D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD8BF20293C0D76001DB53D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -68,6 +68,23 @@
 			path = ModelControllers;
 			sourceTree = "<group>";
 		};
+		AC4AB49D293C2D670040F81C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				AC4AB4A1293C2DFD0040F81C /* DayListTableViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		AC4AB49E293C2D860040F81C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				ACD8BF1A293C0D75001DB53D /* Main.storyboard */,
+				ACD8BF1F293C0D76001DB53D /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		ACD8BF08293C0D75001DB53D = {
 			isa = PBXGroup;
 			children = (
@@ -89,10 +106,9 @@
 			children = (
 				AC4AB495293C29730040F81C /* Models */,
 				AC4AB498293C2A0A0040F81C /* ModelControllers */,
+				AC4AB49D293C2D670040F81C /* ViewControllers */,
+				AC4AB49E293C2D860040F81C /* Views */,
 				AC4AB494293C28BD0040F81C /* Resources */,
-				ACD8BF18293C0D75001DB53D /* ViewController.swift */,
-				ACD8BF1A293C0D75001DB53D /* Main.storyboard */,
-				ACD8BF1F293C0D76001DB53D /* LaunchScreen.storyboard */,
 			);
 			path = DaysOfTheWeek;
 			sourceTree = "<group>";
@@ -168,11 +184,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ACD8BF19293C0D75001DB53D /* ViewController.swift in Sources */,
 				ACD8BF15293C0D75001DB53D /* AppDelegate.swift in Sources */,
 				AC4AB497293C298E0040F81C /* Day.swift in Sources */,
 				ACD8BF17293C0D75001DB53D /* SceneDelegate.swift in Sources */,
 				AC4AB49A293C2A1E0040F81C /* DayController.swift in Sources */,
+				AC4AB4A2293C2DFD0040F81C /* DayListTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
