@@ -11,9 +11,9 @@ class DayController {
     
     static var daysOfTheWeek: [Day] {
         
-        let sunday = Day(name: "Sunday", origin: "Sunday Emperor Constantine adopted the seven-day week for official use in AD 321, making the Day of the Sun the first day of the week.")
+        let sunday = Day(name: "Sunday", origin: "Emperor Constantine adopted the seven-day week for official use in AD 321, making the Day of the Sun the first day of the week.")
         
-        let monday = Day(name: "Monday", origin: "Monday In the international standard ISO 8601, Monday, or Day of the Moon, is treated as the first day of the week.")
+        let monday = Day(name: "Monday", origin: "In the international standard ISO 8601, Monday, or Day of the Moon, is treated as the first day of the week.")
         
         let tuesday = Day(name: "Tuesday", origin: "Tuesday was named for the Germanic god of war, Tiu.")
         
