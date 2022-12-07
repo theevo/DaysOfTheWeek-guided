@@ -29,17 +29,9 @@ class DayListTableViewController: UITableViewController {
         // DEPRECATED
 //        cell.textLabel?.text = day
         
-        // THE NEW WAY iOS 15+
-        
+        // THE NEW WAY iOS 14+
         var content = cell.defaultContentConfiguration()
-
-        // Configure content.
-        content.image = UIImage(systemName: "star")
         content.text = day
-
-        // Customize appearance.
-        content.imageProperties.tintColor = .purple
-
         cell.contentConfiguration = content
         
         return cell
